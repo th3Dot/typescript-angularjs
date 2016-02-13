@@ -1,0 +1,14 @@
+{
+  "files" :
+    [
+      "src/Controllers/MainCtrl.ts",
+      "src/Application.ts"
+    ],
+
+  "compilerOptions": {
+      "target": "es5",
+      "out": "appBundle.js",
+      "sourceMap": true,
+      "removeComments": false
+    }
+  }

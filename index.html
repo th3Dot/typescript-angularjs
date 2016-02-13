@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a ui-sref="login">Login Page</a>
+          <a ui-sref="app">Application Page</a>
+        </li>
+      </ul>
+    </nav>
+    <div ui-view></div>
+    <script type="application/JavaScript" src="src/Libs/jQuery/jquery-1.12.0.min.js"></script>
+    <script type="application/JavaScript" src="src/Libs/AngularJS/angular.min.js"></script>
+    <script type="application/JavaScript" src="src/Libs/AngularJS/angular-ui-router.min.js"></script>
+    <script type="application/JavaScript" src="./appBundle.js"></script>
+  </body>
+</html>
