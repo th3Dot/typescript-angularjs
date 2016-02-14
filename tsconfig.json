@@ -2,6 +2,7 @@
   "files" :
     [
       "src/Controllers/MainCtrl.ts",
+      "src/Controllers/LoginCtrl.ts",
       "src/Application.ts"
     ],
 

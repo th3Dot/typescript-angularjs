@@ -12,7 +12,5 @@ module App {
       $scope.name = 'Martin';
       $scope.surname = 'Kalenda';
     }
-
-    private myPromt = prompt;
   }
 }
